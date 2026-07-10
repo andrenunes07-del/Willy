@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
+import Nav from '@/components/Nav'
+import Footer from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Reduza seus Impostos — SVA para Provedores | Willy',
-  description: 'Provedores de internet incluem ebooks e audiobooks culturais na base de clientes e reclassificam parte da receita como SVA — isenta de tributação federal.',
+  title: 'Willy Hub — Comissão Recorrente e Redução de Impostos para Provedores',
+  description: 'Hub de soluções para provedores: Willy Med gera comissão recorrente vendendo telemedicina e bem-estar à sua base, e Willy Ebook reduz sua carga tributária com reclassificação SVA.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -15,7 +17,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
