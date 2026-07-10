@@ -33,8 +33,8 @@ export default function Hero() {
         <div className="hero-stats">
           <div className="hstat cy">
             <div className="hs-l">Soluções disponíveis no hub</div>
-            <div className="hs-n">2</div>
-            <div className="hs-d">Comissão recorrente e redução fiscal</div>
+            <div className="hs-n">2 <span className="hs-n-note">(por enquanto)</span></div>
+            <div className="hs-d">Comissão recorrente e redução de impostos.</div>
           </div>
           <div className="hstat li">
             <div className="hs-l">Mensalidade no Willy Med</div>
@@ -42,9 +42,9 @@ export default function Hero() {
             <div className="hs-d">Formato vendeu, ganhou — comissão recorrente</div>
           </div>
           <div className="hstat cy">
-            <div className="hs-l">Imposto sobre a parcela SVA do Willy Ebook</div>
-            <div className="hs-n">0%</div>
-            <div className="hs-d">Isenção federal · Lei 12.761/2012</div>
+            <div className="hs-l">Redução de imposto no Willy Ebook</div>
+            <div className="hs-n">Até 40%</div>
+            <div className="hs-d">Redução recomendada, proporcional ao % de SVA adotado</div>
           </div>
         </div>
       </div>
