@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import type { MedSimData } from '@/types/medSimData'
 
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwpPCr0Nmodg0JAxp5dDHGN6Rb7wKky4kIdVgDpSEGs5oJ9F0MA_zdk1A0g2rxw1eSB/exec'
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxbi9WelL3ZKVBgAhfnJ1QgV6T8Ji_EOsDpIwAFxKG7mQaLyrREPIZFp2UqU6xsGX6F/exec'
 
 const fmt = (v: number) => 'R$ ' + Math.round(v).toLocaleString('pt-BR')
 

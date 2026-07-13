@@ -7,7 +7,7 @@ const SOLUTIONS = [
     accent: 'cy' as const,
     title: 'Willy Ebook',
     desc: 'Inclua ebooks e audiobooks culturais na base de clientes e reclassifique parte da receita como SVA — isenta de tributação federal. Economia imediata, sem mudar a operação.',
-    feats: ['Isenção federal · Lei 12.761/2012', 'Simulador de economia fiscal completo', 'Ativação imediata, sem fidelidade'],
+    feats: ['Isenção federal · Lei 12.761/2012', 'Simulador de economia fiscal completo', 'Ativação imediata'],
     cta: 'Ver simulador de economia →',
   },
   {
