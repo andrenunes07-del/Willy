@@ -619,6 +619,9 @@ footer {
   display: flex; justify-content: space-between; align-items: center;
   font-family: 'Space Mono', monospace; font-size: 11px; color: var(--text3);
 }
+.footer-right { display: flex; align-items: center; gap: 16px; }
+.footer-social { display: inline-flex; color: var(--text3); transition: color 0.18s; }
+.footer-social:hover { color: var(--cy); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 920px) {
@@ -651,4 +654,5 @@ footer {
   .cta-in { grid-template-columns: 1fr; padding: 64px 20px; gap: 40px; }
   .cta-left h2 { font-size: 34px; }
   footer { flex-direction: column; gap: 8px; text-align: center; padding: 20px; }
+  .footer-right { flex-direction: column; gap: 10px; }
 }
