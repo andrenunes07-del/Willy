@@ -77,6 +77,15 @@ nav {
   transition: background 0.18s, color 0.18s;
 }
 .nav-btn:hover { background: var(--cy); color: var(--bg); }
+.nav-wa {
+  display: inline-flex; align-items: center; gap: 7px;
+  color: #25d366; font-size: 13px; font-weight: 600;
+  text-decoration: none; transition: opacity 0.18s;
+  white-space: nowrap;
+}
+.nav-wa:hover { opacity: 0.75; }
+.nav-wa span { font-family: 'Space Grotesk', sans-serif; letter-spacing: 0.02em; }
+@media (max-width: 640px) { .nav-wa span { display: none; } }
 
 /* ── HERO ── */
 .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
@@ -622,6 +631,8 @@ footer {
 .footer-right { display: flex; align-items: center; gap: 16px; }
 .footer-social { display: inline-flex; color: var(--text3); transition: color 0.18s; }
 .footer-social:hover { color: var(--cy); }
+.footer-wa { color: #25d366 !important; }
+.footer-wa:hover { color: #1aad52 !important; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 920px) {
